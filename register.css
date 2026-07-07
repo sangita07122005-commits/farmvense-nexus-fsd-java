@@ -1,0 +1,174 @@
+body {
+
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #edf7ed;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.register-box {
+
+    width: 380px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+
+    text-align: center;
+
+}
+
+
+
+.logo {
+
+    font-size: 45px;
+
+}
+
+
+
+h2 {
+
+    color: #2e7d32;
+
+    margin-bottom: 5px;
+
+}
+
+
+
+.subtitle {
+
+    color: gray;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+form {
+
+    text-align: left;
+
+}
+
+
+
+label {
+
+    display: block;
+
+    margin-top: 15px;
+
+    font-weight: bold;
+
+}
+
+
+
+input {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 8px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    box-sizing: border-box;
+
+}
+
+
+
+.password-box {
+
+    position: relative;
+
+}
+
+
+
+.password-box span {
+
+    position: absolute;
+
+    right: 12px;
+
+    top: 12px;
+
+    cursor: pointer;
+
+}
+
+
+
+button {
+
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 12px;
+
+    background: #2e7d32;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+
+
+
+button:hover {
+
+    background: #1b5e20;
+
+}
+
+
+
+.login-text {
+
+    margin-top: 20px;
+
+}
+
+
+
+a {
+
+    color: #2e7d32;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
